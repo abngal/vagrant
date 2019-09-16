@@ -17,12 +17,10 @@ Vagrant.configure("2") do |config|
 
   # below needs: `vagrant reload --provision`
   config.vm.provision "shell", inline: <<-SHELL
-    apt-get update
-    # docker 
-    curl -fsSL https://get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
-    rm -f get-docker.sh
-    usermod -aG docker vagrant # needs re-login
-    echo 're-login for `docker ps' & etc to work
+    # apt install -y zsh
+    
+    sh /vagrant_data/shell/installs.sh
+
+    
   SHELL
 end
