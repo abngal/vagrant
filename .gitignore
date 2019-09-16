@@ -12,7 +12,7 @@
 *.box
 
 # Files shared/visible inside vagrant box(es)
-data
+data/repos
 
 # End of https://www.gitignore.io/api/vagrant
 

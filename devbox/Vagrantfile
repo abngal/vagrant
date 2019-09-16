@@ -18,8 +18,8 @@ Vagrant.configure("2") do |config|
   # below needs: `vagrant reload --provision`
   config.vm.provision "shell", inline: <<-SHELL
     # apt install -y zsh
-    
-    sh /vagrant_data/shell/installs.sh
+
+    # sh /vagrant_data/shell/installs.sh
 
     
   SHELL
