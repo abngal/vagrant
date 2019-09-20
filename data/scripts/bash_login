@@ -1,0 +1,7 @@
+export VAGRANT_DATA=/vagrant_data
+echo $VAGRANT_DATA
+
+
+printf "\n\n You are now inside Vagrant Developer Box \n\n"
+cd 
+zsh
