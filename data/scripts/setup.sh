@@ -1,3 +1,5 @@
+# sh /vagrant_data/scripts/setup.sh
+
 # sysem variables
 export VAGRANT_DATA=/vagrant_data
 
