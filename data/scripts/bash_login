@@ -1,8 +1,10 @@
-zsh
+printf "\n\n You are now inside Vagrant Developer Box \n\n"
+
 export VAGRANT_DATA=/vagrant_data
 cd $VAGRANT_DATA
 pwd
 
-printf "\n\n You are now inside Vagrant Developer Box \n\n"
+# this line shouled be last, else above scripts won't work
+zsh
 
 
