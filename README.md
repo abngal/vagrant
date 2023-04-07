@@ -1,3 +1,6 @@
+ARCHIVED - now using WSL2 and denvironments instead ( gitpod, gh codespace or docker dev env )
+
+
 # Boxes present:  
 
   `devbox`: generic ubuntu box for software development
